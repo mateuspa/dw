@@ -39,6 +39,7 @@ footer{
     background-color: bisque;
     margin: 50px auto;
     width: 80%;
+    align-self: auto;
 
 }
 .imagem{
