@@ -14,7 +14,7 @@ header{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-nav{
+nav.topo{
     background-color:#DEB887; /* BurlyWood */
     margin: 50px;
     padding: 20px;
@@ -23,11 +23,20 @@ nav{
     align-self: center;
     width: 50%;
 }
-main{
-    background-color:#FFDEAD; /* NavajoWhite */
+nav.superior{
+    background-color:#DEB887; /* BurlyWood */
     margin: 50px;
     padding: 20px;
-    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-self: center;
+    width: 50%;
+}
+nav.lateral{
+    float: left;
+}
+main{
+    float: right;
 }
 footer{
     background-color: #F5DEB3; /* Wheat */
