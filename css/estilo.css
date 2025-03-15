@@ -16,6 +16,9 @@ header{
     float: left;
 }
 main{
+    margin: 50px;
+    padding: 20px;
+    text-align: justify;
     float: right;
 }
 footer{
