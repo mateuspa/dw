@@ -19,6 +19,7 @@ main{
     margin: 50px;
     padding: 20px;
     text-align: justify;
+    float: right;
 }
 footer{
     background-color: #F5DEB3; /* Wheat */
