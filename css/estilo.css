@@ -21,6 +21,7 @@ main{
 }
 footer{
     background-color: #F5DEB3; /* Wheat */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     text-align: center;
     margin: 50px auto;
