@@ -5,7 +5,6 @@
 body{
     background-color:#FAEBD7;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
 header{
     background-color:#FFDEAD; /* NavajoWhite */
@@ -44,15 +43,32 @@ nav.topo{
     background-color:#DEB887; /* BurlyWood */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
-    float: left
+    text-align: center;
+}
+nav.topo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 nav.topo li{
     display: inline-block;
 }
+
+nav.topo li a {
+    display: block;
+    color: write;
+}
+
+nav.topo li a:hover{
+    background-color: black;
+}
+
 nav.superior{
     background-color:#DEB887; /* BurlyWood */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
+    text-align: center;
 }
 nav.superior li{
     display: inline-block;
