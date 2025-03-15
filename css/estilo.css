@@ -46,6 +46,9 @@ nav.topo{
     width: 100%;
     float: left
 }
+nav.top li{
+    display: inline-block;
+}
 nav.superior{
     background-color:#DEB887; /* BurlyWood */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
