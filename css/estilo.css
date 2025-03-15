@@ -51,6 +51,10 @@ nav.superior{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
 }
+nav.superior li{
+    display: inline-block;
+}
+
 nav.lateral{
     float: left;
 }
