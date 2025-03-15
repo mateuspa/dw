@@ -61,6 +61,8 @@ nav.superior li{
 }
 
 nav.lateral{
+    background-color:#DEB887; /* BurlyWood */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 29%
     float: left;
 }
