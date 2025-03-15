@@ -102,7 +102,6 @@ nav.superior li a:hover{
 }
 
 nav.superior .active {
-    color: black;
     background-color: #D2691E;
 }
 
@@ -125,11 +124,10 @@ nav.lateral li a{
 }
 
 nav.lateral li a:hover{
-    color:white;
+    color: white;
     background-color: #D2691E;
 }
 
 nav.lateral .active {
-    color: black;
     background-color: #D2691E;
 }
