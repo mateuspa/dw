@@ -13,13 +13,11 @@ header{
     padding: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    float: left;
 }
 main{
     margin: 50px;
     padding: 20px;
     text-align: justify;
-    float: right;
 }
 footer{
     background-color: #F5DEB3; /* Wheat */
@@ -29,7 +27,6 @@ footer{
     margin: 50px auto;
     width: 80%;
     padding: 10px;
-    float: left; 
 }
 #container{
     background-color: #F5DEB3; /* Wheat */
