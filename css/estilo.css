@@ -15,11 +15,9 @@ header{
     text-align: center;
 }
 main{
-    width: 62%
     margin: 50px;
     padding: 20px;
     text-align: justify;
-    float: right;
 }
 footer{
     background-color: #F5DEB3; /* Wheat */
@@ -63,6 +61,5 @@ nav.superior li{
 nav.lateral{
     background-color:#DEB887; /* BurlyWood */
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 29%
     float: left;
 }
