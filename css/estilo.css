@@ -77,6 +77,7 @@ nav.topo li a:hover{
 }
 
 nav.topo .active{
+    color:white;
     background-color: #D2691E;
 }
 
@@ -102,6 +103,7 @@ nav.superior li a:hover{
 }
 
 nav.superior .active {
+    color:white;
     background-color: #D2691E;
 }
 
@@ -129,5 +131,6 @@ nav.lateral li a:hover{
 }
 
 nav.lateral .active {
+    color:white;
     background-color: #D2691E;
 }
