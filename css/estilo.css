@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "campus";
+    src: url('../fontes/campus.ttf');
+}
+
+@font-face {
+    font-family: "truecolor";
+    src: url('../fontes/Truecolor.otf');
+}
+
+@font-face {
+    font-family: "otherspace";
+    src: url('../fontes/otherspace.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Mea+Culpa&family=Splash&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -15,10 +32,12 @@ nav.topo{
 }
 
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
+    background-image: url('../imagem/fundo.png');
 }
 
 header{
+    font-family: campus, sans-serif;
     background-color: #F5DEB3; /* Wheat */
     height: 100px;
     padding: 50px;
@@ -35,12 +54,32 @@ main{
 }
 
 footer{
-    background-color: #F5DEB3; /* Wheat */
+    background-color: rgb(245,222,179,.75); /* Wheat in RGB with 75% transparency*/
     font-size:small;
     font-style: italic;
     text-align: center;
     width: 100%;
     padding: 20px;
+}
+
+h3{
+    font-family: otherspace;
+    color: red;
+}
+
+h4{
+    font-family: Honk;
+    color: #555555;
+}
+
+h5{
+    font-family: Mea+Culpa;
+    color: rgb(50,150,250);
+}
+
+h6{
+    font-family: Splash;
+    color: yellowgreen;
 }
 
 #container{
@@ -108,6 +147,7 @@ nav.superior .active {
 }
 
 nav.lateral{
+    font-family: truecolor, sans-serif;
     width: 10%;
     margin: 20px 0px;
     padding: 10px;
