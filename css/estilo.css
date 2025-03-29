@@ -1,3 +1,7 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Mea+Culpa&family=Splash&display=swap');
+
 @font-face {
     font-family: "campus";
     src: url('../fontes/campus.ttf');
@@ -13,7 +17,6 @@
     src: url('../fontes/otherspace.ttf')
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Mea+Culpa&family=Splash&display=swap');
 
 *{
     margin: 0px;
@@ -50,7 +53,7 @@ main{
     padding: 20px;
     text-align: justify;
     float: right;
-    width: 85%;
+    width: 80%;
 }
 
 footer{
@@ -148,9 +151,9 @@ nav.superior .active {
 
 nav.lateral{
     font-family: truecolor, sans-serif;
-    width: 10%;
+    width: 15%;
     margin: 20px 0px;
-    padding: 10px;
+    padding: 0px;
 }
 
 nav.lateral ul{
@@ -173,4 +176,29 @@ nav.lateral li a:hover{
 nav.lateral .active {
     color:white;
     background-color: #D2691E;
+}
+
+
+table.tabela{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+table.tabela th,
+table.tabela td{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+table.tabela tr:nth-child(even){
+    background-color: #ddd;
+}
+
+table.tabela th{
+    background-color: #04a;
+    color: white;
+    text-align: center;
 }
